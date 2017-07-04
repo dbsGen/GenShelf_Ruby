@@ -5,6 +5,7 @@ module HiEngine
     end
 
     def native_initialize
+      p "nil init #{self.class}"
     end
     
     def method_missing name, *arg
