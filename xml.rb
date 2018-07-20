@@ -1,11 +1,11 @@
 require 'object'
 
 class XMLDocument < HiEngine::Object
-    native "hirender::XMLDocument"
+    native "gr::XMLDocument"
     
 end
 class XMLNode < HiEngine::Object
-    native "hirender::XMLNode"
+    native "gr::XMLNode"
 
     def attr key
         getAttribute key

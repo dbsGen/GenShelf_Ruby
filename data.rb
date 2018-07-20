@@ -1,11 +1,11 @@
 require 'object'
 
 class Data < HiEngine::Object
-    native "hicore::Data"
+    native "gcore::Data"
     
 end
 
 class FileData < HiEngine::Object
-    native "hicore::FileData"
+    native "gcore::FileData"
     
 end

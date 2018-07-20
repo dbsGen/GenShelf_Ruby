@@ -1,5 +1,5 @@
 require 'object'
 
 class ScriptTransport < HiEngine::Object
-    native "hiscript::ScriptTransport"
+    native "gscript::ScriptTransport"
 end

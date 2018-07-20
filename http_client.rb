@@ -1,6 +1,6 @@
 require 'object'
 
 class HTTPClient < HiEngine::Object
-    native "hirender::HTTPClient"
+    native "gr::HTTPClient"
     
 end

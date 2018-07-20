@@ -16,7 +16,7 @@ class SettingItem < HiEngine::Object
     native "nl::SettingItem"
 end
 class Map < HiEngine::Object
-    native "hicore::Map"
+    native "gcore::Map"
     include Enumerable
 
     def [] key
@@ -35,7 +35,7 @@ class Map < HiEngine::Object
 end
 
 class Vector < HiEngine::Object
-    native "hicore::Array"
+    native "gcore::_Array"
     include Enumerable
 
     def [] idx

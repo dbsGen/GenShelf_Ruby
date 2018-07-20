@@ -1,6 +1,6 @@
 require 'object'
 class Callback < HiEngine::Object
-  native "hicore::Callback"
+  native "gcore::Callback"
   
   def initialize &block
     super
