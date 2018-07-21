@@ -16,7 +16,7 @@ class SettingItem < HiEngine::Object
     native "nl::SettingItem"
 end
 class Map < HiEngine::Object
-    native "gcore::Map"
+    native "gcore::_Map"
     include Enumerable
 
     def [] key
