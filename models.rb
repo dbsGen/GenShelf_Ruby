@@ -56,4 +56,7 @@ class Vector < HiEngine::Object
         set idx, val
     end
 
+    def last
+        get(size - 1)
+    end
 end
